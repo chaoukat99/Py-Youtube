@@ -2,15 +2,6 @@ from tkinter import *
 from turtle import heading
 from pytube import YouTube as yt
 app=Tk()
-
-# url='https://www.youtube.com/watch?v=ff-FSobShpo&list=RDMM&index=3'
-# my_video=yt(url)
-# print(my_video.title)
-# print(my_video.thumbnail_url)
-# for stream in my_video.streams:
-#     print(stream)
-# my_video = my_video.streams.get_highest_resolution()
-# my_video.download() 
 app.geometry('800x400')
 favicon=PhotoImage(file="C:\programmationcourses\python\Tkinter\youtubevideo\images\icon.png")
 app.iconphoto(False,favicon)
